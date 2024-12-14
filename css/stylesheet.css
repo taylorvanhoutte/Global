@@ -1,0 +1,142 @@
+.grid img{
+    width: 200px;
+}
+.team {
+    border: 5px solid #bd7433;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 400px;
+}
+body{
+    margin: 0px;
+
+}
+.grid p {
+    width: 200px;
+}
+.left{
+    float: right;
+}
+.center{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p, ul, .fiveHun{
+    width: 400px;
+    
+}
+.fiveHun{
+    text-align: center;
+}
+.button1{
+    width: 320px;
+    margin-top: 50px;
+}
+.button{
+    width: 150px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+hr{
+    width: 475px;
+    border: 1px solid #bd7433;;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.twoHun{
+    width: 200px;
+}
+.grid .team{
+    float: right;
+    position:relative;
+    top: 30px;
+   
+}
+
+p, ul{
+    font-family: "usual", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .9em;
+}
+ul{
+    font-family: "usual", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .8em;
+    width: 350px;
+    line-height: 20px;
+}
+h1,h2,h3,h4,a{
+    font-family: "usual", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.blackBanner{
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 5px solid #bd7433;
+}
+.brownBanner{
+    bottom: 0px;
+    background-color:#bd7433;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+.top{
+    margin-top: 100px;
+}
+.bannerLogo{
+    z-index: 3;
+    height: 100px;
+}
+.gray{
+    background-color:gray;
+    color: white;
+    font-size: .88;
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.button1, .button{
+    background-color:#bd7433;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.button1:hover, .button:hover{
+    background-color:#703e12;
+}
+.button1 a, .button a{
+    color: white;
+    text-decoration: none;
+}
+
+.blue{
+    background-color:cornflowerblue;
+    color: white;
+    font-size: .88;
+    width: 400px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
